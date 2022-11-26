@@ -1,0 +1,18 @@
+.side{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 34px 20px;
+  gap: 34px;
+
+  position: absolute;
+  width: 229px;
+  height: 950px;
+  left: 16px;
+  top: 16px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 12px 34px rgba(0, 0, 0, 0.04);
+  border-radius: 24px;
+}

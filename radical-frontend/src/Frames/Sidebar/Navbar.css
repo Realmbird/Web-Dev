@@ -1,0 +1,22 @@
+.logo {
+  width: 160px;
+  height: 32px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 189px;
+  height: 288px;
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
