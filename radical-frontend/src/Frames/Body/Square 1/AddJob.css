@@ -1,0 +1,57 @@
+.add-job{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+  gap: 8px;
+
+  width: 153px;
+  height: 44px;
+
+  /* Purple */
+
+  background: #793EF5;
+  border-radius: 12px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.white-logo{
+  width: 20px;
+  height: 20px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.button-text{
+  /* Add New Job */
+
+
+  width: 93px;
+  height: 20px;
+
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-feature-settings: 'liga' off;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

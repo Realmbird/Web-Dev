@@ -1,0 +1,28 @@
+.stats{
+  /* Funnel */
+
+
+width: 789px;
+height: 174px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.graph{
+  /* Funnel */
+
+
+width: 789px;
+height: 174px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}

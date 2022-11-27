@@ -1,0 +1,76 @@
+.insight-title{
+  /* Internship Insights */
+
+
+width: 248px;
+height: 24px;
+
+/* Desktop/H5 */
+
+font-family: 'Eloquia Display';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+font-feature-settings: 'liga' off;
+
+/* Gray 1 */
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.insight-text{
+  width: 229px;
+height: 120px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.3px;
+font-feature-settings: 'liga' off;
+
+/* Dark */
+
+color: #1E1E1E;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.insight{
+  /* Frame 1321314782 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 248px;
+height: 156px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}

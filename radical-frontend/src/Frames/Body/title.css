@@ -1,0 +1,48 @@
+.sub-title{
+    /* Text */
+
+
+  width: 77px;
+  height: 24px;
+
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 24px;
+  /* identical to box height, or 75% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+
+  color: #1E1E1E;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.title{
+    /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 626px;
+
+  width: 1135px;
+  height: 44px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

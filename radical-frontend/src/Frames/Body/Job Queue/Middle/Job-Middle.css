@@ -1,0 +1,22 @@
+.boxes{
+  /* Frame 1321314787 */
+
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  width: 1103px;
+  height: 80px;
+  
+  background: #F6F5F9;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

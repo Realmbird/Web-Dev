@@ -1,0 +1,25 @@
+.job-item{
+  /* Frame 1321314795 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1103px;
+height: 188px;
+
+/* Gray 50 */
+
+border: 1px solid #E2E6EB;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}

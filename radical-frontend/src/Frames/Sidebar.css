@@ -1,8 +1,10 @@
 .side{
+  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  
   padding: 34px 20px;
   gap: 34px;
 

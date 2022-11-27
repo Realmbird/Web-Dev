@@ -1,0 +1,28 @@
+.important-text{
+  /* Candidates: 41 total | 41 active in pipeline | Last candidate: on Jun 2 2022 */
+
+
+width: 435px;
+height: 28px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 28px;
+/* identical to box height, or 233% */
+
+text-align: center;
+font-feature-settings: 'liga' off;
+
+/* Dark text */
+
+color: #5C5C5C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}

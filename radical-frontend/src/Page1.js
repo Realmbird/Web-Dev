@@ -1,5 +1,6 @@
 import Body from './Frames/Body'
 import Sidebar from './Frames/Sidebar'
+import './Page1.css'
 const Page_1 = () => {
 
   return ( 

@@ -1,0 +1,64 @@
+.status-text{
+  /* Published on your career page */
+
+
+width: 177px;
+height: 28px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 28px;
+/* identical to box height, or 233% */
+
+text-align: center;
+font-feature-settings: 'liga' off;
+
+/* Dark text */
+
+color: #5C5C5C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.checkmark{
+  /* tick-circle */
+
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.publish{
+  /* Frame 1321314794 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 205px;
+height: 28px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
