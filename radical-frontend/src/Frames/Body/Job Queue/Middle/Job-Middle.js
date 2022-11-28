@@ -4,11 +4,11 @@ const Job_Middle = () => {
   const boxes = [{
     "number": '4',
     "title": 'Sourced',
-    "image": ''
+    "bar": true
   },{
     "number": '23',
     "title": 'Applied',
-    "image": ''
+    "bar": true
   },{
     "number": '18',
     "title": 'Photo Screen',

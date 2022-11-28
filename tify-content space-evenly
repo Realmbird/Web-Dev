@@ -1,0 +1,26 @@
+[33mcommit 53967eee876a3492e2e932872e7504f907e03176[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Realmbird <happychristopher777@gmail.com>
+Date:   Sun Nov 27 15:44:30 2022 -0800
+
+    Added Job Queue and title,
+    Job Queue and Job items not working
+
+[33mcommit 560048705146cb27b3a9bc561a7a71336ec787c4[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Realmbird <happychristopher777@gmail.com>
+Date:   Sat Nov 26 14:57:07 2022 -0800
+
+    Added Navbar CSS v 1
+
+[33mcommit 025a07d2506cea2cd192019a533f06d18600ceb1[m
+Author: Realmbird <happychristopher777@gmail.com>
+Date:   Sat Nov 26 14:56:39 2022 -0800
+
+    Completed Sidebar for Page 1
+
+[33mcommit e100b9813c70722ca9e9955802d9abe58583a14a[m
+Author: Realmbird <happychristopher777@gmail.com>
+Date:   Sun Nov 6 12:45:49 2022 -0800
+
+    React
+    
+    Set up

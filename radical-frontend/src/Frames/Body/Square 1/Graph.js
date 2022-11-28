@@ -1,4 +1,5 @@
 import Time from './Time/Time.js'
+import './Graph.css'
 const Graph = () => {
   return ( 
     <div className = 'graph'>

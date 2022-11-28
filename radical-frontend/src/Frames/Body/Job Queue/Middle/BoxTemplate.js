@@ -1,14 +1,15 @@
 import './BoxTemplate.css'
 const Box = ({box}) => {
   return (
-    <div className = 'both'>
-      <div className = 'box'>
-      <h2 className = 'num'>{ box.number }</h2>
-      <p className = 'title'>{ box.title }</p>
-      {box.bar && <img src = "./images/Vector 11.png" className = 'bar' />}
+    <div className = 'both-box'>
+       <div className = 'box'>
+      <h2 className = 'box-num'>{ box.number }</h2>
+      <p className = 'box-title'>{ box.title }</p>
     </div>
+      {box.bar && <img src = './images/Vector 11.png' className = 'bar' />}
+    </div>
+    
 
-    </div> 
     
     
    );

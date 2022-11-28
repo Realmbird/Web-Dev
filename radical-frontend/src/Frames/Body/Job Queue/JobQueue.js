@@ -1,4 +1,5 @@
 import JobItem from "./JobItem";
+import './JobQueue.css'
 const JobQueue = () => {
   return ( 
     <div className = 'job-queue'>

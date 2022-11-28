@@ -1,0 +1,25 @@
+.bottom{
+  /* Frame 1321314790 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 10px;
+
+width: 1103px;
+height: 52px;
+
+background: #F6F5F9;
+border-radius: 0px 0px 12px 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}

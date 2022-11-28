@@ -1,5 +1,6 @@
 import JobQueue from './Job Queue/JobQueue.js';
-import Section_1 from './Square 1/Section-1.js'
+import Section_1 from './Square 1/Section-1.js';
+import './Info.css'
 const Info = () => {
   return (
     <div className = 'info'>
