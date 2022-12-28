@@ -2,21 +2,35 @@ import Intern_Item from "./Intern-Item";
 import './Intern-Form.scss';
 const Intern_Form = () => {
   const buttons = [{
-    "name" : 'Category'
+    "name" : 'Category',
+    "id" : 1,
+    "card": {
+
+    }
   },{
-    "name" : 'Description'
+    "name" : 'Description',
+    "id" : 2,
+    "card": {
+      
+    }
   },{
-    "name" : 'Location'
+    "name" : 'Location',
+    "id" : 3
   },{
-    "name" : 'Benefits'
+    "name" : 'Benefits',
+    "id" : 4
   },{
-    "name" : 'Intro Video'
+    "name" : 'Intro Video',
+    "id" : 5
   },{
-    "name" : 'Mentor Details'
+    "name" : 'Mentor Details',
+    "id" : 6
   },{
-    "name" : 'Recommended Roles'
+    "name" : 'Recommended Roles',
+    "id" : 7
   },{
-    "name" : 'Web Links & Resources'
+    "name" : 'Web Links & Resources',
+    "id" : 8
   }]
   return ( 
     <div className = "form">
