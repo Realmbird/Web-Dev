@@ -1,6 +1,6 @@
 
 import './App.css';
-import Content from './Content';
+import Content from './Content/Content';
 import Intern_Form from './Form-List/Intern-Form';
 import Form_Navbar from './Form-Navbar';
 import Form_Title from './Form-Top/Form-Title';
