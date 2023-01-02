@@ -3,16 +3,10 @@ import './Intern-Form.scss';
 const Intern_Form = () => {
   const buttons = [{
     "name" : 'Category',
-    "id" : 1,
-    "card": {
-
-    }
+    "id" : 1
   },{
     "name" : 'Description',
-    "id" : 2,
-    "card": {
-      
-    }
+    "id" : 2
   },{
     "name" : 'Location',
     "id" : 3

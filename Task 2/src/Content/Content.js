@@ -3,20 +3,24 @@ import { Card, Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Category from './category';
 import Description from './description';
+import { useSelector, useDispatch } from 'react-redux'
+import {setIndex} from '../redux/status.js'
 
 const Content = () => {
-  const form = ""
-  switch (form){
-    case 'category': 
+  const index = useSelector((state) => state.status.index)
+  const dispatch = useDispatch()
+  const content = ""
+  switch (index){
+    case 1: 
       return (
         <Category />
       );
       break;
-    case 'description':
+    case 2:
       return(
         <Description />
       );
-    case 'location':
+    case 3:
         return(
           <div className = 'content'>
             <Card>

@@ -1,8 +1,11 @@
 import {useState} from 'react'
 import { Form , Button, Image } from 'react-bootstrap'
 import InputGroup from 'react-bootstrap/InputGroup';
-
+import { useSelector, useDispatch } from 'react-redux'
+import { setActive, setSubmit, setIndex, setData } from '../redux/status.js'
 const Category = () => {
+  const index = 1;
+  const dispatch = useDispatch()
   const [value, setValue] = useState();
   const [array, setArray] = useState([]);
   //function
@@ -14,6 +17,7 @@ const Category = () => {
           e.preventDefault()
           array.push(value)
           setValue()
+          dispatch(setSubmit(index))
         }
   return ( 
     <Form className = 'category' onSubmit={onFormSubmit}>
