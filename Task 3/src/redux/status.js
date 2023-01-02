@@ -2,8 +2,8 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
   name: ["","Category","Description","Location", "Benefits", "Intro Video", "Mentor Details", "Recommended Roles", "Web Links & Resources"],
-  active: [true, false,false,false,false,false,false,false],
-  submit: [true, false,false,false,false,false,false,false],
+  active: [true, false,false,false,false,false,false,false,false],
+  submit: [true, false,false,false,false,false,false,false,false],
   index: 0,
   data: []
 }

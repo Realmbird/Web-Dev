@@ -275,3 +275,501 @@
     flex-grow: 0;
   }
 }
+.content-location{
+  /* Content */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  position: absolute;
+  width: 789px;
+  height: 138px;
+  left: 700px;
+  top: 212px;
+
+  /* Base/White */
+
+  background: #FFFFFF;
+  border-radius: 20px;
+  .l-title{
+    /* Location */
+
+
+    width: 102px;
+    height: 18px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 18px;
+    /* identical to box height, or 75% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Gray 1 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .l-drop{
+    /* Text field */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+
+    width: 741px;
+    height: 48px;
+
+    
+    background: #F1F4F8;
+    /* Field Stroke */
+
+    border: 1px solid #CECECE;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    background-image: url("../../public/images/location.png"), url("../../public/images/arrow-down.png");
+    background-repeat: no-repeat;
+    background-position: left 10px top 50%, right 10px top 50%;
+    text-indent: 20px;
+  }
+  .l-search{
+    /* Text */
+
+
+    width: 653px;
+    height: 28px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+    font-feature-settings: 'liga' off;
+
+    /* Text/Text - 02 */
+
+    color: rgba(47, 48, 49, 0.54);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+  }
+}
+.file{
+  /* Content */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  position: absolute;
+  width: 789px;
+  height: 222px;
+  left: 700px;
+  top: 212px;
+
+  /* Base/White */
+
+  background: #FFFFFF;
+  border-radius: 20px;
+  .f-title{
+    /* Intro Video */
+
+
+    width: 127px;
+    height: 18px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 18px;
+    /* identical to box height, or 75% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Gray 1 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .f-group{
+    /* Frame 1321314703 */
+
+
+    /* Auto layout */
+    position: relative;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    width: 741px;
+    height: 68px;
+
+    border-bottom: 1px dashed #B2B6BC;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    background-image: url("../../public/images/File add.png")
+  }
+}
+.f-control{
+  /* Frame 1321314703 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 20px;
+  gap: 8px;
+
+  width: 741px;
+  height: 68px;
+
+  border: 1px dashed #B2B6BC;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.mentor{
+  /* Content */
+
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  isolation: isolate;
+  gap: 24px;
+  position: absolute;
+  width: 789px;
+  height: 400px;
+  left: 700px;
+  top: 212px;
+
+  /* Base/White */
+
+  background: #FFFFFF;
+  border-radius: 20px;
+  .m-title{
+    /* Mentor Details */
+
+
+    width: 170px;
+    height: 18px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 18px;
+    /* identical to box height, or 75% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Gray 1 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+  }
+  .m-group{
+    /* Rectangle 18895 */
+
+
+    width: 80px;
+    height: 80px;
+
+    /* Gray 50 */
+
+    background: #E2E6EB;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+  }
+  .m-name{
+    /* Text field */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+
+    width: 50%;
+    height: 48px;
+
+    
+    background: #F1F4F8;
+    /* Field Stroke */
+
+    border: 1px solid #CECECE;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    background-image: url('../../public/images/profile.png');
+    background-repeat: no-repeat;
+    background-position: left 10px top 50%;
+    text-indent: 20px;
+  }
+  .m-email{
+    /* Text field */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+
+    width: 50%;
+    height: 48px;
+
+    
+    background: #F1F4F8;
+    /* Field Stroke */
+
+    border: 1px solid #CECECE;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    background-image: url('../../public/images/sms.png');
+    background-repeat: no-repeat;
+    background-position: left 10px top 50%;
+    text-indent: 20px;
+  }
+  .m-link{
+    /* Text field */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+
+    width: 741px;
+    height: 48px;
+
+    
+    background: #F1F4F8;
+    /* Field Stroke */
+
+    border: 1px solid #CECECE;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    background-image: url('../../public/images/link.png');
+    background-repeat: no-repeat;
+    background-position: left 10px top 50%;
+    text-indent: 20px;
+  }
+  
+}
+.r-title{
+  /* Category */
+
+
+ height: 18px;
+
+   font-family: 'Space Grotesk';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 18px;
+   /* identical to box height, or 75% */
+
+   font-feature-settings: 'liga' off;
+
+   /* Gray 1 */
+
+   color: #333333;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.link{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  position: absolute;
+  width: 789px;
+  height: 200px;
+  left: 700px;
+  top: 212px;
+
+  /* Base/White */
+
+  background: #FFFFFF;
+  border-radius: 20px;
+  .l-title{
+        /* Recommended Roles */
+
+
+        height: 18px;
+
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 18px;
+        /* identical to box height, or 75% */
+
+        font-feature-settings: 'liga' off;
+
+        /* Gray 1 */
+
+        color: #333333;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;  
+  }
+  .l-text{
+    /* Text field */
+
+
+      box-sizing: border-box;
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px 16px;
+      gap: 8px;
+
+      width: 741px;
+      height: 48px;
+
+      background: #F1F4F8;
+      /* Field Stroke */
+
+      border: 1px solid #CECECE;
+      border-radius: 16px;
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    /* Text field */
+    background-image: url('../../public/images/link.png');
+    background-repeat: no-repeat;
+    background-position: left 10px top 50%;
+    text-indent: 20px;
+  }
+}
