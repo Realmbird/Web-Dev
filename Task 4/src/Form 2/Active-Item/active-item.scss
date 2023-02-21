@@ -1,0 +1,208 @@
+.body{
+ /* Frame 1321314756 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 654px;
+    height: 360px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 3;
+  .bullet{
+    /* Frame 1321314749 */
+  
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 0px;
+    gap: 10px;
+  
+    width: 24px;
+    
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .arrow{
+    /* arrow-right */
+  
+  
+    width: 24px;
+    height: 24px;
+  
+    opacity: 0.5;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+.item-active{
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 28px;
+
+  width: 606px;
+  height: 360px;
+
+  /* White */
+
+  background: #FFFFFF;
+  /* Purple */
+
+  border: 1px solid #793EF5;
+  /* Card Selected */
+
+  box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.section-title-form{
+    /* Frame 1321314752 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+
+  width: 558px;
+  height: 24px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  .content-button{
+    /* Frame 1321314601 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+
+    width: 528px;
+    height: 18px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+  .arrow{
+    /* arrow-right */
+
+
+    width: 24px;
+    height: 24px;
+
+    opacity: 0.5;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .text{
+    /* Overview */
+
+
+    width: 79px;
+    height: 18px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Gray 1 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+.active-button{
+  /* Module */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 28px;
+
+    width: 606px;
+    height: 360px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Purple */
+
+    border: 1px solid #793EF5;
+    /* Card Selected */
+
+    box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

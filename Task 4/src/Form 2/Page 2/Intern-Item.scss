@@ -1,0 +1,201 @@
+.intern-item{
+  /* Frame 1321314758 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 654px;
+  height: 64px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 8;
+  .bullet{
+    /* Frame 1321314749 */
+  
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 0px;
+    gap: 10px;
+  
+    width: 24px;
+    
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+}
+
+.item{
+  /* Module */
+
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 28px;
+
+  width: 606px;
+  height: 64px;
+
+  /* White */
+
+  background: #FFFFFF;
+  /* Gray 5 */
+
+  border: 1px solid #E0E0E0;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.item-active{
+  /* Module */
+
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 28px;
+
+  width: 606px;
+  height: 64px;
+
+  /* White */
+
+  background: #FFFFFF;
+  /* Purple */
+
+  border: 1px solid #793EF5;
+  /* Card Selected */
+
+  box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.content-button{
+  /* Frame 1321314750 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 514px;
+  height: 24px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  .text{
+    /* Category */
+
+
+
+    height: 18px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Gray 1 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .check{
+    /* tick-circle */
+
+
+    width: 24px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+.arrow{
+  /* arrow-right */
+
+
+  width: 24px;
+  height: 24px;
+
+  opacity: 0.5;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.search{
+  width: 20px;
+  height: 20px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  }

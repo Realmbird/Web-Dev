@@ -1,0 +1,17 @@
+import './App.css';
+import Form_Navbar from './Form-Navbar';
+import Form_Title from './Form-Top/Form-Title';
+import Intern_Form from './Form 2/Page 4/Intern-Form-4'
+import Content from './Content/Content';
+const Page_4 = () => {
+  return ( 
+    <div className="App">
+      <Form_Title />
+      <Form_Navbar />
+      <Intern_Form />
+      <Content />
+    </div>
+   );
+}
+ 
+export default Page_4;
